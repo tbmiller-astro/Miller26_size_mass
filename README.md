@@ -1,2 +1,2 @@
 # Miller26_size_mass
-Results of the size-mass fits from Miller et al. 2026 and example scripts
+Results and example scripts from Miller et al. (2026) for the evolution of the size-mass relationship for galaxies across cosmic time. Chains from the continuity model fits for star-forming and quiescent galaxies are saved at `SF_continuity_Bspline.nc` and `Q_continuity_Bspline.nc` respectively. They are saved as arviz objects. Means and co-variances for the parameterizations are saved in `Miller26_param_cov.h5`. Examples for how to load and interact with these results are shown in the `example_scripts` folder.
